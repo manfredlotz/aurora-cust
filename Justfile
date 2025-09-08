@@ -1,4 +1,5 @@
-export image_name := env("aurora-cust", "image-template") # output image name, usually same as repo name, change as needed
+#export image_name := env("aurora-cust", "image-template") # output image name, usually same as repo name, change as needed
+export image_name := env("IMAGE_NAME", "aurora-cust")
 export default_tag := env("DEFAULT_TAG", "stable")
 export bib_image := env("BIB_IMAGE", "quay.io/centos-bootc/bootc-image-builder:latest")
 
