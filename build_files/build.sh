@@ -11,7 +11,7 @@ set -ouex pipefail
 
 # this installs a package from fedora repos
 #dnf5 install -y ghostty asusctl asusctl-rog-gui dovecot dovecot-pigeonhole opensmtpd snapper
-dnf5 install -y snapper ripgrep
+dnf5 install -y snapper
 
 # Use a COPR Example:
 #
